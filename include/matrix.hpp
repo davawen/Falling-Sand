@@ -1,5 +1,4 @@
-#ifndef __MATRIX_H__
-#define __MATRIX_H__
+#pragma once
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -35,5 +34,3 @@ struct Matrix
 	void setElementAt(int x, int y, Element::Type type);
 	void swapPlace(int x1, int y1, int x2, int y2);
 };
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef __ELEMENT_H__
-#define __ELEMENT_H__
+#pragma once
 
 #include <SFML/Graphics.hpp>
 
@@ -35,5 +34,3 @@ struct Element
 	inline bool isFluid();
 	inline bool isSolid();
 };
-
-#endif
